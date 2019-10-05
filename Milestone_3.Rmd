@@ -9,13 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Korean Diaspora in the U.S.: The reasons and patterns of the Korean migration
+### Korean Diaspora in the U.S.: The reasons and patterns of the Korean migration
 
 For my project, I wanted to explore why there were such a large body of Korean immigrants in the U.S. and their motivations for emigrating to such a different place. I wanted to explore which specific geographical regions they went to, which possible correlations I could find with the job market and industry with these various locations,and any other possible reasons why the South Korean people would want to move to the U.S. 
 
 I have found several different sources to explore for this project:
 
-# The Korean Statistical Information Service
+##### The Korean Statistical Information Service
 
 I was able to find a few excel sheets of several different parts of the Korean immigration system; due to some difficulty in data collection, the latest data I could find was of the 2017 surveys for both Long term emmigration from Korea and the overall numbers of people migrating to and from Korea.
 
@@ -28,3 +28,17 @@ https://kosis.kr/eng/statisticsList/statisticsListIndex.do?menuId=M_01_01&vwcd=M
 This link is for people who left in 2005, but reasons for why they left to each country and numbers of how many went to each country:
 https://kosis.kr/eng/statisticsList/statisticsListIndex.do?menuId=M_01_01&vwcd=MT_ETITLE&parmTabId=M_01_01&parentId=A.1;A3.2;A31.3;#A31.3
 
+I want to combine this data with some US Census data to see how the reasons for why people left the nation matches the various data of why some people moved to various geographical locations in the US. I also want to see if the areas of major cities in the US match the various locations most Koreans are grouped at to see if cities have a correlation to where Koreans tend to move towards.
+
+##### US Census Data 
+
+This data is from the US Census, and it has record of the number of each asian population in the major counties of each state; I can use this to see which areas have the most Korean populations and graph them geographically with the major cities in each state.
+
+https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
+
+
+##### Largest cities data 
+
+This data is from data world, and this will allow me to plot the cities with the largest populations around the US. I will filter the cities to have the top 50, and map them on top of my data of the largest Korean populated areas in the US.
+
+https://data.world/gmoney/us-city-populations/workspace/file?filename=US+City+Populations.xlsx
